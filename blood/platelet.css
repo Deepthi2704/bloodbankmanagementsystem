@@ -1,0 +1,256 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #F7F5F2;
+  }
+  
+  .nav-content {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+  }
+  
+  .navbar {
+    display: inline-flex;
+    padding: 0 3rem;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #F7F5F2;
+  }
+  
+  .nav-item {
+    margin: auto 0.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: #22577E;
+    box-sizing: border-box;
+  }
+  
+  .nav-item:hover {
+    box-sizing: border-box;
+    border-bottom: 2px solid #F24A72;
+    color: #062C30;
+  }
+  
+  .push-right {
+    float: right;
+  }
+  .nav-content {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+  }
+  
+  .navbar {
+    display: inline-flex;
+    padding: 0 3rem;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #F7F5F2;
+  }
+  
+  .nav-item {
+    margin: auto 0.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: #22577E;
+    box-sizing: border-box;
+  }
+  
+  .nav-item:hover {
+    box-sizing: border-box;
+    border-bottom: 2px solid #F24A72;
+    color: #062C30;
+  }
+  
+  .push-right {
+    float: right;
+  }
+  
+  /* @media only screen and (max-width:750px) {
+    
+  } 
+   */
+  
+  .main-content {
+    margin-top: 4rem;
+    width: 100%;
+    height: fit-content;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .text-content {
+    padding: 2rem;
+    color: #3F4E4F;
+  }
+  
+  .brand-name {
+  /*   text-align: center; */
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .brand-img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .steps {
+   margin-top: 1rem; 
+  }
+  
+  .step {
+    width:45%;
+    margin: 0.5rem;
+    padding: 0.5rem 0.25rem;
+    border: 1px solid #810955;
+    border-radius: 5px;
+    color: #810955;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 2px 13px -7px rgba(0,0,0,0.75);
+  }
+  
+  .step:hover {
+    color: #F7F5F2;
+    background-color: #810955;
+  }
+  
+  .booking-step {
+    margin: 0.25rem auto;
+    background-color: #3EC70B;
+    color: white;
+    border: none;
+  }
+  
+  .booking-step:hover {
+    color: #3EC70B;
+    background-color:#F7F5F2;
+    border: 1px solid #3EC70B;
+  }
+  
+  .dashboard {
+    background-color: #810955;
+    padding: 3rem;
+    text-align: center;
+    color: #F2EBE9;
+  }
+  
+  #main-carousel {
+    width: 50%;
+    height: 50%;
+    margin: 2rem auto;
+  }
+  
+  .login-a {
+    padding: 1rem;
+    color: white;
+    background-color: #FBCB0A;
+    width: fit-content;
+    height: fit-content;
+    margin: 2rem auto;
+    text-decoration: none;
+  }
+  
+  
+  /* Login Page Styling */
+  
+  .button { 
+  height: 35px; 
+  width: 100px; 
+  padding: 10px 15px; 
+  text-align: center;
+  } 
+  .button1{font-size: 15px;
+  font-weight: bold;}
+  label {
+          display: inline-block;
+          width: 150px;
+          text-align:left;
+        }
+  input{
+  text-align:left;
+  border-radius: 7px;
+    padding: 5px 5px;
+  }
+  .content {
+  display: grid;
+    height: 100vh;
+    place-items: center;
+  }
+  .text-center {
+    text-align: center;
+  }
+  form{
+  width: 500px; 
+    border-radius: 15px;
+  border-color: #686868;
+    padding: 20px 20px;
+    margin-top: -25px;
+    box-shadow: -3px -3px 9px #aaa9a9a2,
+               4px 4px 10px rgba(147, 149, 151, 0.671);
+  margin-bottom: 25px;
+  }
+  select{
+  text-align:left;
+  border-radius: 7px;
+    padding: 5px 5px;
+  }
+   button:hover {   
+          opacity: 0.7;   
+      }   
+    .cancelbtn {   
+          width: auto;   
+          padding: 10px 18px;  
+          margin: 10px 5px;  
+      }   
+  h1{
+  text-align: center;
+  font-size:2.5em;
+  }
+  .button1{font-size: 15px;
+  font-weight: bold;}  
+  
+  /* Services.html styling */
+  
+  .services-wrapper {
+    padding: 2rem;
+  /*   margin: 2rem auto; */
+  }
+  
+  .service {
+    height: fit-content;
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 1rem 0.5rem;
+    background-color: #f9ecd8;
+    border: 1px solid #810955;
+    border-radius: 5px;
+  /*   -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75); */
+  }
+  
+  .service-name {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .service-info {
+    width: 275px;
+    margin: 1rem auto;
+    text-align: center;
+    color: #810955;
+    font-size: 12px;
+  }
+  
+  .service-img {
+    height: 250px;
+    width: 300px;
+    border-radius: 5px;
+  }
